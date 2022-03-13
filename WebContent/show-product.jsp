@@ -125,7 +125,7 @@
 	
 	                        <%} %>
 	                    </ul>
-	                   <button class="btn btn-warning button"><em>>>> Apply <<<</em></button> 
+	                   <button class="btn btn-warning button"><em>aa Apply aa</em></button> 
                     </form>
                 </div>
 
@@ -242,7 +242,7 @@
                     <h3>INFORMATION</h3>
                     <a href="#">About Us</a>
                     <a href="#">Privacy Policy</a>
-                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Terms &#38; Conditions</a>
                     <a href="#">Contact Us</a>
                     <a href="#">Site Map</a>
                 </div>

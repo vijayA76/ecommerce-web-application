@@ -3,14 +3,14 @@ package com.connection;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class GetConnection {
+public class GetConnection {		
 	public static Connection con;
 	
 	public static Connection connection() {
 		try {
-//			Before Deployment change the url,user,password
+//			change url, user, password before deployment
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			String url = "jdbc:mysql://localhost:3306/";	   		
+			String url = "jdbc:mysql://localhost:3306/";			
 			String user = "root";
 			String pass = "";
 			
@@ -19,6 +19,7 @@ public class GetConnection {
 			System.out.println(e);
 		}
 		return con;
-	}
-
+	}	
 }
+
+

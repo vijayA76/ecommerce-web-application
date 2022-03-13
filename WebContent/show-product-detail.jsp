@@ -211,7 +211,7 @@
 				<div class="footer-center">
 					<h3>INFORMATION</h3>
 					<a href="#">About Us</a> <a href="#">Privacy Policy</a> <a href="#">Terms
-						& Conditions</a> <a href="#">Contact Us</a> <a href="#">Site Map</a>
+						&#38; Conditions</a> <a href="#">Contact Us</a> <a href="#">Site Map</a>
 				</div>
 				<div class="footer-center">
 					<h3>MY ACCOUNT</h3>

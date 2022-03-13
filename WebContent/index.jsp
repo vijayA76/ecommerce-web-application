@@ -7,23 +7,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
-  <link rel="preload" as="style"
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  <link rel="preload" 
     href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
     media="print" onload="this.media='all'" />
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap" />
-  </noscript>
+  
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap" />
+  
   <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
   <link href="css/main.css?ver=1.2.0" rel="stylesheet">
-  <noscript>
-    <style>
-      .tf-header {
-        background: url('image/1-hero-image.jpg') no-repeat center center;
-      }
-    </style>
-  </noscript>
+  
+  <style>
+    .tf-header {
+      background: url('image/1-hero-image.jpg') no-repeat center center;
+    }
+  </style>
+  
 
 <title>ecommerce- Home</title>
 </head>
@@ -46,13 +46,13 @@
       <div class="row">
         <div class="col-md-7 col-sm-12">
 
-          <h2>Incredible India <br> for our Product <br>Goods & Services</h2>
+          <h2>Incredible India <br> for our Product <br>Goods &#38; Services</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-md-7 col-sm-12">
           <!-- <p class="mt-4">" Welcome the challenges. Look for the opportunities in every situation to learn and grow in wisdom " — Brian Tracy</p> -->
-          <p class="mt-4">" You can tell a man is clever by his answers. You can tell a man is wise by his questions." –
+          <p class="mt-4">" You can tell a man is clever by his answers. You can tell a man is wise by his questions." &#45;
             Naguib Mahfouz</p>
         </div>
       </div>

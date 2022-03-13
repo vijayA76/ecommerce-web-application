@@ -33,7 +33,7 @@
             <!-- <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required=""
                 autofocus=""> -->
             <input type="tel" name="mob_num" pattern="[0-9]{10}" class="form-control" placeholder="Mobile number" required/>
-            <input type="password" name="password" class="form-control" placeholder="Password" required="">
+            <input type="password" name="password" class="form-control" placeholder="Password" >
 
             <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
             <a href="forget_pass.jsp" id="forgot_pswd">Forgot password?</a>

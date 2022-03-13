@@ -16,7 +16,7 @@
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">  
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 		
 		<link rel="stylesheet" type="text/css" href="css/message.css">
 		<link rel="stylesheet" type="text/css" href="css/admin-style.css">
