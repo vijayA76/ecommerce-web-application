@@ -1,0 +1,230 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.container section
+{
+	margin-top: 50px;
+	padding: 0 10% 10% 10%;
+	background: #f1f3f4;
+	width: 100%;
+	height: auto;
+	box-shadow: -2px 2px 2px #ddd;
+	
+}
+
+section .button
+	{
+		text-align: center;
+	}
+
+#myList
+{
+	width:55%;
+	display: inline-block;
+}
+#sub-list
+{
+	width:40%;
+	display: inline-block;
+	float: right;
+}
+
+#sub-list .button
+{
+	width: 100%;
+}
+.container p
+{
+	font-family: cursive;
+	text-align: center;
+	color: blue;
+}
+
+.container ul
+{
+	margin: 10%;
+	list-style: none;	
+}
+.container ul li ul li a button
+{
+	width: 20%;
+	padding: 20px;
+}
+.form form
+{
+	width: 100%;
+}
+.form
+{
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-radius: 5px;
+    box-shadow: -2px 2px 2px #ddd;
+    padding: 0% 5% 5%;
+    width: 60%;
+    background-color: #f1f3f4;
+    margin-left: 20%;
+}
+
+.form form fieldset p
+{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+.form form fieldset label
+{
+    font-family: serif;
+    font-size: 18px;
+    color: #532827;
+    padding-left: 12px;
+    margin: 0;
+    
+}
+
+.form form fieldset input
+{
+    width: 90%;
+}
+
+@media screen and (max-width: 900px)
+{
+	.form
+	{
+		width: 90%;
+		margin-left: 5%;
+		
+	}
+	
+	section .button
+	{
+		font-size: 12px;
+		text-align: center;
+	}
+}
+
+/*--------------------enquiry---------------------------*/
+
+#list
+{
+    list-style: none;
+    padding: 0;
+}
+
+#list .enquiry
+{
+    background: #fff;
+    padding: 5%;
+    box-shadow: -2px 2px 2px #ddd;
+    border-radius: 5px;
+}
+#list .enquiry:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#list .enquiry .mobile
+{
+    width: 49%;
+    float: left;
+}
+#list .enquiry .email
+{
+    width: 49%;
+    float: right;
+    text-align: right;
+}
+#list .enquiry .email b, .mobile b
+{
+        color: blue;
+}
+
+#list .enquiry .description
+{
+    text-align: justify;
+    width: 70%;
+    font-family: arial;
+    float: left;
+    min-height: 100px;
+}
+.enquiry-msg
+{
+    text-align: justify;
+    width: 100%;
+    font-family: arial;
+    float: left;
+    word-wrap: break-word;
+}
+#list .enquiry .btn
+{
+    float: right;
+    display: block;
+    width: 26%;
+}
+@media screen and (max-width: 900px)
+{
+	
+	#list .enquiry .mobile
+	{
+	    width: 100%;
+	    float: left;
+	}
+	#list .enquiry .email
+	{
+	    width: 100%;
+	    float: left;
+	    text-align: left;
+	}
+	#list .enquiry .description
+	{
+	    text-align: justify;
+	    width: 100%;
+	    font-family: arial;
+	    float: left;
+	}
+	body section #container #list .enquiry .description p
+	{
+	    text-align: justify;
+	    width: 100%;
+	    font-family: arial;
+	    float: left;
+	    color: black;
+	}
+	#list .enquiry .btn-download
+	{
+	    float: none;
+	    display: block;
+	    width: 100%;
+	}
+	#list .enquiry .btn-delete
+	{
+		float: none;
+	    display: block;
+	    width: 100%;
+	}
+}
+
+.container .pc-table
+{
+	display: block;
+}
+.container .m-table
+{
+	display: none;
+}
+@media screen and (max-width: 900px)
+{
+	.container .pc-table
+	{
+		display: none;
+	}
+	.container .m-table
+	{
+		display: block;
+	}
+}
