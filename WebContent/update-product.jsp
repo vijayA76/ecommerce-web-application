@@ -17,21 +17,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<br>
-	<h5 style="color:red; font-family: consolas; text-align:center;"><%-- <%@include file="Component/message.jsp" %> --%></h5>
 	
 		<title>Admin: Update-Product</title>
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/admin-style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">  
         
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script> 
 	</head>
 	<body>
+	<br>
+	<h5 style="color:red; font-family: consolas; text-align:center;"><%@include file="Component/message.jsp" %></h5>
 	<br>
         <div class="container">
             <div class="form form-outer">
@@ -42,7 +42,7 @@
 				List<Product> list2=Read.getSingleProduct(id);
 				Product product = list2.get(0);
 				
-	            ArrayList list=Read.getCategory();
+	            ArrayList<?> list=Read.getCategory();
 				Read.getSingleProduct(id);
 				
 	            if(list.isEmpty())
